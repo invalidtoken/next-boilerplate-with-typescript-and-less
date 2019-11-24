@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next -p 7777",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "typescript": "tsc",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
